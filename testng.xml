@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mytrip Test Suite">
+<parameter name="appURL" value="http://www.cleartrip.com/"/>
+<parameter name="browserType" value="chrome"/> 
+<test name="Itinerary Test">
+    <classes>
+        <class name="com.mytrip.tests.ItineryFlightDetailsMatchedTest" ></class> 
+    </classes>
+</test>
+
+</suite>
